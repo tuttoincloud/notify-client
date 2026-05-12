@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'base_url' => env('NOTIFY_BASE_URL', 'https://tuttoincloud.it'),
+    'base_url' => env('NOTIFY_BASE_URL', 'https://tuttoincloud.online'),
     'token'    => env('NOTIFY_TOKEN'),
     'timeout'  => env('NOTIFY_TIMEOUT', 10),
     'outbox'   => [

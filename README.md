@@ -15,7 +15,7 @@ php artisan migrate
 Aggiungi al `.env`:
 
 ```env
-NOTIFY_BASE_URL=https://tuttoincloud.it
+NOTIFY_BASE_URL=https://tuttoincloud.online
 NOTIFY_TOKEN=tic_live_xxxxxxxxxxxxxxxx
 ```
 
