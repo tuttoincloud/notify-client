@@ -1,0 +1,27 @@
+{
+    "name": "tuttoincloud/notify-client",
+    "description": "Client PHP per il Mail Gateway Notify di TuttoInCloud",
+    "type": "library",
+    "license": "proprietary",
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7.0",
+        "illuminate/support": "^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TuttoInCloud\\NotifyClient\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TuttoInCloud\\NotifyClient\\NotifyServiceProvider"
+            ],
+            "aliases": {
+                "Notify": "TuttoInCloud\\NotifyClient\\NotifyFacade"
+            }
+        }
+    },
+    "minimum-stability": "stable"
+}
